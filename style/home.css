@@ -1,0 +1,84 @@
+.home-page-body {
+    background-color: #000;
+}
+
+.hero-img {
+    width: 90vw;
+    margin-left: 5vw;
+}
+
+.hero-title {
+    background: linear-gradient(
+        90deg,
+        #ff3bff 0%,
+        #ecbfbf 38.02%,
+        #5c24ff 75.83%,
+        #d94fd5 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.hero-subtitle {
+    color: #fff;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.hero-description {
+    width: 720px;
+    margin-inline: auto;
+    color: #fff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 0.72px;
+    margin-bottom: 3rem;
+}
+
+.email-input-wrap {
+    margin: auto;
+    max-width: fit-content;
+    padding: 1rem;
+    position: relative;
+    background: linear-gradient(to right, #ff3bff, #ecbfbf, #5c24ff, #d94fd5);
+    padding: 2px;
+    border-radius: 100px;
+    margin-bottom: 1.2rem;
+}
+
+.email-input {
+    background-color: #000;
+    color: #fff;
+    width: 400px;
+    border-radius: 100px;
+    border: none;
+    padding: 1.5rem;
+}
+
+.email-input:focus {
+    outline: none;
+}
+
+.email-input-button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

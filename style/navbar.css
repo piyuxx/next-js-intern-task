@@ -1,0 +1,37 @@
+.logo-img {
+    width: 5%;
+}
+
+.navbar {
+    border-bottom: 1px solid rgba(211, 211, 211, 0.733);
+    margin-bottom: 2rem;
+    padding: 2% 3%;
+}
+
+.round-button {
+    padding: 0.6rem 1rem;
+    border-radius: 100px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    transition: 0.25s;
+}
+
+.round-button:hover{
+    cursor: pointer;
+    background-color:#fff;
+    color:  #000;
+}
+
+.navbar-button {
+    position: absolute;
+    right: 4rem;
+    top: 2rem;
+}

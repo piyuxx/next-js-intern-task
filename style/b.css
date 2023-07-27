@@ -1,0 +1,78 @@
+.cardSection{
+    margin:54px;
+    text-align: center;
+  }
+  
+  .cardSectionHeading{
+    width: 1280px;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 61.6px */
+    background: linear-gradient(90deg, #4E4BE4 1.04%, #E862FE 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:#fff;
+    margin:auto;
+  
+  }
+  
+  .cardContainer1{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  .cardContainer2 .card{
+    display: flex;
+  width: 979px;
+  height:371px;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  border-radius: 40px;
+  background-image: url(/card2.svg);
+  background-size: cover;
+  margin:40px auto 0px;
+  }
+  
+  .cardContainer1 .card{
+    width: 618px;
+    height:427px;
+    display: flex;
+  /* padding: 10px; */
+  flex-direction: column;
+  align-items: flex-start;
+  /* gap: 20px; */
+  border-radius: 40px;
+  background-image: url(/Card.svg);
+  background-size: cover;
+  }
+  
+  .card h6{
+    font-family: Urbanist;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 110%;*/
+    background: linear-gradient(90deg, #4E4BE4 1.04%, #E862FE 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin:60px 32px 0px;
+  }
+  
+  .card p{
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 136.364% */
+    margin:20px 32px 0px;
+  }
+  
+  

@@ -1,0 +1,25 @@
+.blob-holder{
+    position: relative;
+    max-width: fit-content;
+    margin-inline: auto;
+    margin-block: 4rem;
+}
+
+.blob-outer{
+    width: 25rem;
+}
+
+.blob-inner{
+    transform: scale(0.95);
+    position: absolute;
+    left: 0;
+}
+
+.blob-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    position: absolute;
+    top: 10rem;
+    font-size: 1.5rem;
+    left: 6rem;
+}

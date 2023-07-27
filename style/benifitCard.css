@@ -1,0 +1,24 @@
+.benifit-card {
+    border-radius: 16px;
+    background: #181924;
+    color: white;
+    width: max-content;
+    padding: 1rem;
+}
+
+.block-breaker {
+    height: 0.1px;
+    background-color: rgba(255, 255, 255, 0.144);
+    border: none;
+}
+
+.block-heading {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    display: inline-block;
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+    width: 24rem;
+    font-weight: 400;
+}
